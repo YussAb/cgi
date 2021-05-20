@@ -5,7 +5,7 @@ cancer_names = open("master_cancer_acronyms.txt", "r")
 muts = open("cancer_genes_upon_mutations_or_CNAs.tsv", "r")
 muttrans = open("cancer_genes_upon_trans.tsv", "r")
 moa = open("gene_MoA.tsv", "r")
-gene_coords = open("../ensembl/sorted.ensembl.gene.coords", "r")
+gene_coords = open("./ensembl/sorted.ensembl.gene.coords", "r")
 out_file = open("ccg.bed", "w")
 print("#chromosome\tstart\tend\tgene\ttumorigenesis\talterations\ttranslocations\tcancer_types\tabbreviations\tsources", file=out_file)
 

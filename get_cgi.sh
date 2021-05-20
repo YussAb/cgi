@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#REFERENCE
+#https://github.com/fakedrtom/crab
 set -euo pipefail
 
 #Get the latest CGI files

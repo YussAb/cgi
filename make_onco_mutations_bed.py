@@ -2,7 +2,7 @@ from __future__ import print_function
 import sys
 
 file = open("catalog_of_validated_oncogenic_mutations.tsv", "r")
-gene_coords = open("../ensembl/sorted.ensembl.gene.coords", "r")
+gene_coords = open("./ensembl/sorted.ensembl.gene.coords", "r")
 cancer_names = open("master_cancer_acronyms.txt", "r")
 
 out_file = open("onco_muts.bed", "w")
